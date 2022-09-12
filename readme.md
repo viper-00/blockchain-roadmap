@@ -1,0 +1,579 @@
+# Blockchain roadmap
+
+![roadmap](./pdf/blockchain.pdf)
+
+## Basic Blockchain Knowledge
+
+### What is Blockchain?
+
+A blockchain is a decentralized, distributed, and oftentimes public, digital ledger consisting of records called blocks that is used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks.
+
+- [Blockchain Explained](https://www.investopedia.com/terms/b/blockchain.asp)
+- [What is decentralization?](https://aws.amazon.com/blockchain/decentralization-in-blockchain/)
+- [How does a blockchain work?](https://youtu.be/SSo_EIwHSd4)
+- [What Is a Blockchain? | Blockchain Basics for Developers](https://youtu.be/4ff9esY_4aU)
+
+### Decentralization
+
+In blockchain, decentralization refers to the transfer of control and decision-making from a centralized entity (individual, organization, or group thereof) to a distributed network. Decentralized networks strive to reduce the level of trust that participants must place in one another, and deter their ability to exert authority or control over one another in ways that degrade the functionality of the network.
+
+- [What is decentralization?](https://aws.amazon.com/blockchain/decentralization-in-blockchain/)
+- [What is Decentralization in Blockchain?](https://www.blockchain-council.org/blockchain/what-is-decentralization-in-blockchain/)
+
+### Why it matters
+
+The nature of blockchain allows for trustless systems to be built on top of it. Users don’t rely on a centralized group of people, such as a bank, to make decisions and allow transactions to flow through. Because the system is decentralized, users know that transactions will never be denied for non-custodial reasons.
+
+This decentralization enables use-cases that were previously impossible, such as parametric insurance, decentralized finance, and decentralized organizations (DAOs), among a few. This allows developers to build products that provide immediate value without having to go through a bureaucratic process of applications, approvals, and general red tape.
+
+- [Why Blockchain?](https://www.blockchain.education/blockchain101/blockchain)
+- [What Is The Blockchain And Why Does It Matter?](https://www.forbes.com/sites/theyec/2020/05/18/what-is-the-blockchain-and-why-does-it-matter/)
+- [Web3/Crypto: Why Bother?](https://continuations.com/post/671863718643105792/web3crypto-why-bother)
+- [Why is Blockchain Important and Why Does it Matter](https://www.simplilearn.com/tutorials/blockchain-tutorial/why-is-blockchain-important)
+
+### Blockchain Structure
+
+The blockchain gets its name from its underlying structure. The blockchain is organized as a series of “blocks” that are “chained” together.
+
+Understanding blockchain security requires understanding how the blockchain is put together. This requires knowing what the blocks and chains of blockchain are and why they are designed the way that they are.
+
+- [Blockchain Architecture Basics: Components, Structure, Benefits & Creation](https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture)
+- [Blockchain Architecture 101: Components, Structure, and Benefits](https://komodoplatform.com/en/academy/blockchain-architecture-101/)
+- [Blockchain structure](https://resources.infosecinstitute.com/topic/blockchain-structure/)
+- [Blockchain Basics | Coursera](https://www.coursera.org/lecture/blockchain-basics/blockchain-structure-5rj9Z)
+
+### Basic Blockchain Operations
+
+Operations in a decentralized networks are the responsibility of the peer participants and their respective computational nodes. These are specific for each type of blockchain.
+
+- [Blockchain Basics: Structure, Operations, and the Bitcoin Blockchain](https://www.mlq.ai/blockchain-basics/)
+- [Bitcoin blockchain transactions | Bitcoin Developer](https://developer.bitcoin.org/reference/transactions.html)
+- [Ethereum blockchain transactions | ethereum.org](https://ethereum.org/en/developers/docs/transactions/)
+- [Blockchain Basics | Coursera](https://www.coursera.org/lecture/blockchain-basics/basic-operations-OxILB)
+
+### Application and uses of Blockchain technology
+
+Blockchain applications go far beyond cryptocurrency and bitcoin. With its ability to create more transparency and fairness while also saving businesses time and money, the technology is impacting a variety of sectors in ways that range from how contracts are enforced to making government work more efficiently.
+
+- [Blockchain Use Cases and Applications by Industry](https://consensys.net/blockchain-use-cases/)
+- [Top 10 Real-World Applications Of Blockchain Technology](https://www.blockchain-council.org/blockchain/top-10-real-world-applications-of-blockchain-technology/)
+- [Ethereum blockchain transactions | ethereum.org](https://ethereum.org/en/developers/docs/transactions/)
+- [E34 Blockchain Applications and Real-World Use Cases Disrupting the Status Quo](https://builtin.com/blockchain/blockchain-applications)
+
+## General Blockchain Knowledge
+
+- [The Complete Course On Understanding Blockchain Technology](https://www.udemy.com/course/understanding-blockchain-technology/)
+- [Blockchain Technology Explained](https://youtu.be/qOVAbKKSH10)
+
+### Mining and incentive models
+
+Mining is the process of adding transaction details to the Blockchain, like sender address, hash value, etc. The Blockchain contains all the history of the transactions that have taken place in the past for record purposes and it is stored in such a manner that, it can’t be manipulated.
+
+An Incentive is basically a reward given to a Blockchain Miner for speeding up the transactions and making correct decisions while processing the complete transaction securely.
+
+- [Blockchain Incentives to Miners](https://www.geeksforgeeks.org/blockchain-incentives-to-miners/)
+- [Ethereum Consensus Mechanisms](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
+- [Solana Staking Rewards](https://docs.solana.com/implemented-proposals/staking-rewards)
+
+### Decentralization vs trust
+
+Blockchains, cryptocurrency, smart contracts, and oracles have emerged as new technologies for coordinating social and economic activities in a more secure, transparent, and accessible manner. Most importantly, these technologies are revealing the power of cryptographic guarantees—what we often call cryptographic truth—in restoring users’ trust in everyday interactions.
+
+- [What Crypto Is Really About](https://blog.chain.link/what-crypto-is-really-about/)
+- [Ethereum Consensus Mechanisms](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
+- [The Superiority of Cryptographic Truth](https://youtu.be/AEtBPbmIRKQ)
+
+### Blockchain forking
+
+A fork happens whenever a community makes a change to the blockchain’s protocol, or basic set of rules.
+
+- [Blockchain Fork](https://en.wikipedia.org/wiki/Fork_(blockchain))
+- [What is a fork?](https://www.coinbase.com/learn/crypto-basics/what-is-a-fork)
+- [What Is a Hard Fork?](https://www.investopedia.com/terms/h/hard-fork.asp)
+
+### Cryptocurrencies
+
+A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work as a medium of exchange through a blockchain, which is not reliant on any central authority, such as a government or bank, to uphold or maintain it.
+
+- [What Is Cryptocurrency?](https://www.investopedia.com/terms/c/cryptocurrency.asp)
+- [Cryptocurrency: What It Is and How It Works](https://www.nerdwallet.com/article/investing/cryptocurrency)
+- [How Cryptocurrency actually works.](https://youtu.be/rYQgy8QDEBI)
+
+
+### Cryptowallets
+
+A cryptocurrency wallet is an application that functions as a wallet for your cryptocurrency.
+
+- [What is a Cryptocurrency Wallet?](https://www.investopedia.com/terms/b/bitcoin-wallet.asp)
+- [What is a Crypto Wallet? A Beginner’s Guide](https://crypto.com/university/crypto-wallets)
+
+### Storage
+
+Unlike a centralized server operated by a single company or organization, decentralized storage systems consist of a peer-to-peer network of user-operators who hold a portion of the overall data, creating a resilient file storage sharing system.
+
+- [Blockchain Storage](https://www.techtarget.com/searchstorage/definition/blockchain-storage)
+- [Decentralized Storage](https://ethereum.org/en/developers/docs/storage/)
+- [How IPFS works](https://docs.ipfs.tech/concepts/how-ipfs-works/)
+
+### Cryptography
+
+Cryptography, or cryptology, is the practice and study of techniques for secure communication in the presence of adversarial behavior.
+
+- [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
+- [What is Cryptography](https://www.synopsys.com/glossary/what-is-cryptography.html)
+- [Asymmetric Encryption - Simply explained](https://youtu.be/AQDCe585Lnc)
+
+### Consensus protocols
+
+Consensus for blockchain is a procedure in which the peers of a Blockchain network reach agreement about the present state of the data in the network. Through this, consensus algorithms establish reliability and trust in the Blockchain network.
+
+- [Consensus Mechanisms in Blockchain: A Beginner’s Guide](https://crypto.com/university/consensus-mechanisms-in-blockchain)
+- [Consensus Mechanisms](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
+- [What Is a Consensus Mechanism?](https://www.coindesk.com/learn/what-is-a-consensus-mechanism/)
+
+### Blockchain interoperability
+
+The concept of “blockchain interoperability” refers to the ability of different blockchain networks to exchange and leverage data between one another and to move unique types of digital assets between the networks’ respective blockchains.
+
+- [Cross-Chain Interoperability: What it Means for Blockchain](https://www.gemini.com/cryptopedia/why-is-interoperability-important-for-blockchain)
+- [Blockchain Interoperability : Why Is Cross Chain Technology Important?](https://101blockchains.com/blockchain-interoperability/)
+- [Blockchain Interoperability – Understanding Cross-Chain Technology](https://www.blockchain-council.org/blockchain/blockchain-interoperability/)
+
+
+## Blockchains
+
+Blockchain systems vary considerably in their design, particularly with regard to the consensus mechanisms used to perform the essential task of verifying network data.
+
+- [Types of Blockchains: PoW, PoS, and Private](https://www.gemini.com/cryptopedia/blockchain-types-pow-pos-private)
+- [Types of Blockchain](https://www.geeksforgeeks.org/types-of-blockchain/)
+
+### Solana
+
+Solana is a public blockchain platform with smart contract functionality. Its native cryptocurrency is SOL.
+
+- [What is Solana, and how does it work?](https://cointelegraph.com/news/what-is-solana-and-how-does-it-work)
+- [Solana Introduction](https://docs.solana.com/introduction)
+
+### L2 blockchains
+
+Layer-2 refers to a network or technology that operates on top of an underlying blockchain protocol to improve its scalability and efficiency.
+
+This category of scaling solutions entails shifting a portion of Ethereum's transactional burden to an adjacent system architecture, which then handles the brunt of the network’s processing and only subsequently reports back to Ethereum to finalize its results.
+
+- [Layer-1 and Layer-2 Blockchain Scaling Solutions](https://www.gemini.com/cryptopedia/blockchain-layer-2-network-layer-1-network)
+- [Layer 2 - Binance Academy](https://academy.binance.com/en/glossary/layer-2)
+
+#### Arbitrum
+
+Arbitrum aims to reduce transaction fees and congestion by moving as much computation and data storage off of Ethereum's main blockchain (layer 1) as it can. Storing data off of Ethereum's blockchain is known as Layer 2 scaling solutions.
+
+- [Arbitrum whitepaper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-kalodner.pdf)
+- [Inside Arbitrum](https://developer.offchainlabs.com/docs/Inside_Arbitrum)
+
+#### Moonbeam Moonriver
+
+Moonbeam is a Polkadot network parachain that promises cross-chain interoperability between the Ethereum and Polkadot . More specifically, Moonbeam is a smart contract platform that enables developers to move dApps between the two networks without having to rewrite code or redeploy infrastructure.
+
+Moonriver is an incentivized testnet. It enables developers to create, test, and adjust their protocols prior to launching on Moonbeam. Moonbeam is the mainnet of the ecosystem.
+
+- [About Moonbream](https://docs.moonbeam.network/learn/platform/networks/moonbeam/)
+- [Moonbeam Vision](https://docs.moonbeam.network/learn/platform/vision/)
+
+### EVM based
+
+The Ethereum Virtual Machine (EVM) is a dedicated software virtual stack that executes smart contract bytecode and is integrated into each Ethereum node. Simply said, EVM is a software framework that allows developers to construct Ethereum-based decentralized applications (DApps). All Ethereum accounts and smart contracts are stored on this virtual computer.
+
+Many blockchains have forked the Ethereum blockchain and added functionality on top, these blockchains are referred to as EVM-based blockchains.
+
+- [What is Ethereum Virtual Machine?](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/)
+
+
+#### Ethereum
+
+Ethereum is a programmable blockchain platform with the capacity to support smart contracts, dapps (decentralized apps), and other DeFi projects. The Ethereum native token is the Ether (ETH), and it’s used to fuel operations on the blockchain.
+
+The Ethereum platform launched in 2015, and it’s now the second largest form of crypto next to Bitcoin (BTC).
+
+- [Ethereum whitepaper](https://ethereum.org/en/whitepaper/)
+- [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
+
+#### Polygon
+
+Polygon, formerly known as the Matic Network, is a scaling solution that aims to provide multiple tools to improve the speed and reduce the cost and complexities of transactions on the Ethereum blockchain.
+
+- [Polygon whitepaper](https://polygon.technology/lightpaper-polygon.pdf)
+- [Introduction to Polygon](https://wiki.polygon.technology/docs/develop/getting-started)
+
+#### Binance Smart Chain
+
+Binance Smart Chain (also known as BNB Chain) is a blockchain project initiated by Binance as a central piece of their cryptocurrency exchange, which is the largest exchange in the world in terms of daily trading volume of cryptocurrencies.
+
+- [Binance whitepaper](https://www.exodus.com/assets/docs/binance-coin-whitepaper.pdf)
+- [BNB Chain overview](https://www.binance.com/en/blog/all/bnb-chain-blockchain-for-exchanging-the-world-304219301536473088)
+
+#### Gnosis Chain
+
+Gnosis is a blockchain based on Ethereum, which changed the consensus model to PoS to solve major issues on the Ethereum mainnet. While the platform solves problems surrounding transaction fees and speed, it also means that the Gnosis chain is less decentralized, as it is somewhat reliant on the Ethereum chain.
+
+- [Gnosis whitepaper](https://blockchainlab.com/pdf/gnosis_whitepaper.pdf)
+- [Gnosis overview](https://developers.gnosischain.com/#gnosis-chain)
+
+#### Huobi Eco Chain
+
+Huobi's ECO Chain (also known as HECO) is a public blockchain that provides developers with a low-cost onchain environment for running decentralized apps (dApps) of smart contracts and storing digital assets.
+
+- [Huobi Eco Chain whitepaper](https://www.hecochain.com/developer.133bd45.pdf)
+- [Introduction to HECO Chain](https://docs.hecochain.com/#/)
+
+#### Avalanche
+
+Avalanche describes itself as an “open, programmable smart contracts platform for decentralized applications.” What does that mean? Like many other decentralized protocols, Avalanche has its own token called AVAX, which is used to pay transaction fees and can be staked to secure the network.
+
+- [Avalanche whitepaper](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6008d7bbf8b10d1eb01e7e16_Avalanche%20Platform%20Whitepaper.pdf)
+- [Avalanche official website](https://www.avax.network/)
+
+#### Fantom
+
+Fantom is a decentralized, open-source smart contract platform that supports decentralized applications (dApps) and digital assets. It's one of many blockchain networks built as a faster, more efficient alternative to Ethereum, it uses the proof-of-stake consensus mechanism.
+
+- [Fantom whitepaper](https://arxiv.org/pdf/1810.10360.pdf)
+- [Fantom overview](https://docs.fantom.foundation/)
+
+#### Moonbeam Moonriver
+
+Moonbeam is a Polkadot network parachain that promises cross-chain interoperability between the Ethereum and Polkadot . More specifically, Moonbeam is a smart contract platform that enables developers to move dApps between the two networks without having to rewrite code or redeploy infrastructure.
+
+Moonriver is an incentivized testnet. It enables developers to create, test, and adjust their protocols prior to launching on Moonbeam. Moonbeam is the mainnet of the ecosystem.
+
+- [About Moonbream](https://docs.moonbeam.network/learn/platform/networks/moonbeam/)
+- [Moonbeam Vision](https://docs.moonbeam.network/learn/platform/vision/)
+
+## Oracles
+
+A blockchain oracle is a third-party service that connects smart contracts with the outside world, primarily to feed information in from the world, but also the reverse. Information from the world encapsulates multiple sources so that decentralised knowledge is obtained.
+
+- [Blockchain Oracle](https://en.wikipedia.org/wiki/Blockchain_oracle)
+- [What Is a Blockchain Oracle?](https://chain.link/education/blockchain-oracles)
+
+### Hybrid Smart Contracts
+
+Hybrid smart contracts combine code running on the blockchain (on-chain) with data and computation from outside the blockchain (off-chain) provided by Decentralized Oracle Networks.
+
+- [Hybrid Smart Contracts Explained](https://blog.chain.link/hybrid-smart-contracts-explained/)
+- [A complete guide to understand hybrid smart contracts](https://www.leewayhertz.com/hybrid-smart-contracts/)
+
+### Chainlink
+
+Chainlink is a decentralized network of oracles that enables smart contracts to securely interact with real-world data and services that exist outside of blockchain networks.
+
+- [What Is Chainlink? A Beginner’s Guide](https://blog.chain.link/what-is-chainlink/)
+- [What Is Chainlink in 5 Minutes](https://www.gemini.com/cryptopedia/what-is-chainlink-and-how-does-it-work)
+
+### Oracle Networks
+
+By leveraging many different data sources, and implementing an oracle system that isn’t controlled by a single entity, decentralized oracle networks provide an increased level of security and fairness to smart contracts.
+
+- [Decentralized Oracle Networks](https://medium.com/coinmonks/decentralized-oracle-networks-9fead28f5fe5)
+- [A Beginner’s Guide To The Evolution Of Decentralized Oracle Networks](https://chainlinktoday.com/a-beginners-guide-to-the-evolution-of-decentralized-oracle-networks/)
+- [Understanding Oracle Networks](https://coinmetro.com/blog/understanding-oracle-networks/)
+
+## Smart Contracts
+
+A smart contract is a computer program or a transaction protocol that is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
+
+- [Smart Contracts Introduction](https://www.blockchain.education/blockchain101/smart-contracts)
+- [What Is a Smart Contract?](https://chain.link/education/smart-contracts)
+- [Smart contracts - Simply Explained](https://youtu.be/ZE2HxTmxfrI)
+
+### ERC Tokens
+
+An ‘Ethereum Request for Comments’ (ERC) is a document that programmers use to write smart contracts on Ethereum Blockchain. They describe rules in these documents that Ethereum-based tokens must comply with.
+
+While there are several Ethereum standards. These ERC Ethereum standards are the most well-known and popular: ERC-20, ERC-721, ERC-1155, and ERC-777.
+
+- [What are Ethereum request for comments (ERC) Standards](https://dev.to/envoy_/ks-what-are-ethereum-request-for-comments-erc-standards-5f80)
+- [ERC-20 Token Standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
+
+### Crypto Wallets
+
+A cryptocurrency wallet is a device, physical medium, program, or service which stores the public and/or private keys for cryptocurrency transactions. In addition to this basic function of storing the keys, a cryptocurrency wallet more often also offers the functionality of encrypting and/or signing information.
+
+- [What is a crypto wallet?](https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-wallet)
+- [What is a Crypto Wallet? A Beginner’s Guide](https://crypto.com/university/crypto-wallets)
+
+### IDEs
+
+An integrated development environment is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools and a debugger.
+
+- [Integrated Development Environments](https://ethereum.org/en/developers/docs/ides/)
+- [Remix - Ethereum IDE & community](https://remix-project.org/)
+
+### Crypto Faucets
+
+A crypto faucet lets users earn small crypto rewards by completing simple tasks. The metaphor is based on how even one drop of water from a leaky faucet could eventually fill up a cup. There are various kinds of crypto faucets, including bitcoin (BTC), Ethereum (ETH), and BNB faucets.
+
+Faucets are common in development environments where developers obtain testnet crypto in order develop and test their application prior to mainnet deployment.
+
+- [What Is A Crypto Faucet?](https://academy.binance.com/en/articles/what-is-a-crypto-faucet)
+- [What are crypto faucets and how do they work?](https://cointelegraph.com/news/what-are-crypto-faucets-and-how-do-they-work)
+
+### Decentralized Storage
+
+Decentralized storage is where data is stored on a decentralized network across multiple locations by users or groups who are incentivized to join, store, and keep data accessible. The servers used are hosted by people, rather than a single company. Anyone is free to join, they are kept honest due to smart contracts, and they are incentivized to participate via tokens.
+
+- [What Is Decentralized Storage?](https://medium.com/@ppio/what-is-decentralized-storage-9c4b761942e2)
+- [Decentralized Storage](https://ethereum.org/en/developers/docs/storage/)
+
+### Programming Languages
+
+Smart contracts can be programmed using relatively developer-friendly languages. If you're experienced with Python or any curly-bracket language, you can find a language with familiar syntax.
+
+- [Smart Contract Languages](https://ethereum.org/en/developers/docs/smart-contracts/languages/)
+
+#### Solidity
+
+Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
+
+- [Solidity Programming Language](https://soliditylang.org/)
+- [Solidity Tutorial](https://www.tutorialspoint.com/solidity/index.htm)
+
+#### Vyper
+
+Vyper is a contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine (EVM).
+
+- [Vyper Programming Language](https://vyper.readthedocs.io/en/stable/)
+- [Learn Vyper in Y Minutes](https://learnxinyminutes.com/docs/vyper/)
+
+#### Rust
+
+Rust is a multi-paradigm, general-purpose programming language. Rust emphasizes performance, type safety, and concurrency. It is popular on smart contract chains Solana and Polkadot.
+
+- [Rust Programming Language](https://www.rust-lang.org/)
+- [How to write and deploy a smart contract in Rust](https://learn.figment.io/tutorials/write-and-deploy-a-smart-contract-on-near)
+
+### Testing
+
+Testing smart contracts is one of the most important measures for improving smart contract security. Unlike traditional software, smart contracts cannot typically be updated after launching, making it imperative to test rigorously before deploying contracts onto mainnet.
+
+- [Testing Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/testing/)
+- [How to Test Ethereum Smart Contracts](https://betterprogramming.pub/how-to-test-ethereum-smart-contracts-35abc8fa199d)
+- [Writing automated smart contract tests](https://docs.openzeppelin.com/learn/writing-automated-tests)
+
+#### Unit Tests
+
+Unit testing involves testing individual components in a smart contract for correctness. A unit test is simple, quick to run, and provides a clear idea of what went wrong if the test fails.
+
+- [Smart Contracts Unit Testing](https://ethereum.org/en/developers/docs/smart-contracts/testing/#unit-testing)
+- [Tips for Unit Testing Ethereum Smart Contracts in Solidity](https://betterprogramming.pub/a-few-tips-for-unit-testing-ethereum-smart-contract-in-solidity-d804062068fb)
+
+#### Integration Tests
+
+Integration tests validate interactions between multiple components. For smart contract testing this can mean interactions between different components of a single contract, or across multiple contracts.
+
+- [Unit tests vs integration tests | Smart contract testing course](https://youtu.be/GxnX9k8i0zM)
+
+#### Code Coverage
+
+Code coverage is a metric that can help you understand how much of your source is tested. It's a very useful metric that can help you assess the quality of your test suite.
+
+- [Testing Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/testing/)
+- [Smart Contract Code Coverage In Hardhat](https://medium.com/coinmonks/smart-contract-code-coverage-in-hardhat-d4a5ff6c9ba6)
+
+### Deployment
+
+Unlike other software, smart contracts don’t run on a local computer or a remote server: they live on the blockchain. Thus, interacting with them is different from more traditional applications.
+
+- [Deploying Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/deploying/)
+- [Deploying and interacting with smart contracts](https://docs.openzeppelin.com/learn/deploying-and-interacting)
+
+### Monitoring
+
+Monitoring smart contracts allow their authors to view its activity and interactions based on generated transactions and events, allowing verification of the contract's intended purpose and functionality.
+
+- [Monitoring Smart Contracts](https://consensys.github.io/smart-contract-best-practices/development-recommendations/solidity-specific/event-monitoring/)
+
+### Upgrades
+
+Smart contracts are immutable by default. Once they are created there is no way to alter them, effectively acting as an unbreakable contract among participants. However, for some scenarios, it is desirable to be able to modify them.
+
+- [Upgrading Ethereum contracts](https://ethereum.org/en/developers/docs/smart-contracts/upgrading/)
+- [Upgrading smart contracts](https://docs.openzeppelin.com/learn/upgrading-smart-contracts)
+- [What are Upgradable Smart Contracts? Full Guide](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)
+- [Upgrading your Smart Contracts | A Tutorial & Introduction](https://youtu.be/bdXJmWajZRY)
+
+## Smart Contract Frameworks
+
+Building a full-fledged dapp requires different pieces of technology. Software frameworks include many of the needed features or provide easy plugin systems to pick the tools you desire.
+
+- [dApp Development Frameworks](https://ethereum.org/en/developers/docs/frameworks/)
+- [A Definitive List of Ethereum Developer Tools - Frameworks](https://media.consensys.net/an-definitive-list-of-ethereum-developer-tools-2159ce865974#frameworks)
+- [Top 10 Smart Contract Developer Tools You Need for 2022](https://medium.com/better-programming/top-10-smart-contract-developer-tools-you-need-for-2022-b763f5df689a)
+
+### Hardhat
+
+Hardhat is an Ethereum development environment. It allows users to compile contracts and run them on a development network. Get Solidity stack traces, console.log and more.
+
+- [Hardhat Overview](https://hardhat.org/hardhat-runner/docs/getting-started#overview)
+- [Build and Deploy Smart Contracts using Hardhat](https://youtu.be/GBc3lBrXEBo)
+
+### Brownie
+
+Brownie is a Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.
+
+- [Brownie Overview](https://eth-brownie.readthedocs.io/)
+- [Python and Blockchain: Deploy Smart Contracts using Brownie](https://youtu.be/QfFO22lwSw4)
+
+### Truffle
+
+A development environment, testing framework, and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
+
+- [Truffle Overview](https://trufflesuite.com/docs/truffle/)
+- [Truffle Tutorial for Beginners | Compile, Test & Deploy Smart contracts to any EVM Blockchain](https://youtu.be/62f757RVEvU)
+
+### Foundry
+
+Foundry is a smart contract development toolchain. Foundry manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command-line and via Solidity scripts.
+
+- [Foundry Overview](https://book.getfoundry.sh/)
+- [Intro to Foundry](https://youtu.be/fNMfMxGxeag)
+
+## Security
+
+Smart contracts are extremely flexible, capable of both holding large quantities of tokens (often in excess of $1B) and running immutable logic based on previously deployed smart contract code. While this has created a vibrant and creative ecosystem of trustless, interconnected smart contracts, it is also the perfect ecosystem to attract attackers looking to profit by exploiting vulnerabilities
+
+- [Smart Contract Security](https://ethereum.org/en/developers/docs/smart-contracts/security/)
+- [Ethereum Smart Contract Security Recommendations](https://consensys.net/blog/developers/ethereum-smart-contract-security-recommendations/)
+
+### Practices
+
+Smart contract programming requires a different engineering mindset. The cost of failure can be high, and change can be difficult.
+
+- [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
+- [Smart Contract Security and Auditing 101](https://youtu.be/0aJfCug1zTM)
+
+#### Fuzz Testing and Static Analysis
+
+Fuzzing or fuzz testing is an automated software testing technique that involves providing invalid, unexpected, or random data as inputs to a smart contract.
+
+Static analysis is the analysis of smart contracts performed without executing them.
+
+- [Getting Started with Smart Contract Fuzzing](https://www.immunebytes.com/blog/getting-started-with-smart-contract-fuzzing/)
+- [Solidity smart contract Static Code Analysis](https://lightrains.com/blogs/solidity-static-analysis-tools/#static-code-analysis)
+- [Smart contract Fuzzing](https://youtu.be/LRyyNzrqgOc)
+
+#### Common Threat Vectors
+
+Smart contract audits enable developers to provide a thorough analysis of smart contract sets. The main goal of a smart contract audit is to detect and eliminate vulnerabilities, starting with the most common threat vectors.
+
+- [Smart Contract Attack Vectors](https://github.com/kadenzipfel/smart-contract-attack-vectors)
+- [Solidity Security: Comprehensive list of known attack vectors and common anti-patterns](https://blog.sigmaprime.io/solidity-security.html)
+- [Blockchain Attack Vectors: Vulnerabilities of the Most Secure Technology](https://www.apriorit.com/dev-blog/578-blockchain-attack-vectors)
+
+#### Source of Randomness Attacks
+
+The security of cryptographic systems depends on some secret data that is known to authorized persons but unknown and unpredictable to others. To achieve this unpredictability, some randomization is typically employed. Modern cryptographic protocols often require frequent generation of random quantities. Cryptographic attacks that subvert or exploit weaknesses in this process are known as randomness attacks.
+
+- [Smart Contract Randomness or ReplicatedLogic Attack](https://blog.finxter.com/randomness-or-replicatedlogic-attack-on-smart-contracts/)
+
+### Tools
+
+Blockchain and smart contract technology is faily new, therefore, you should expect constant changes in the security landscape, as new bugs and security risks are discovered, and new best practices are developed. Keeping track of this constantly moving landscape proves difficult, so using tools to aid this mission is important. The cost of failing to propertly secure smart contracts can be high, and because change can be difficult, we must make use of these tools.
+
+#### Slither
+
+Slither is a Solidity static analysis framework written in Python 3. It runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses. Slither enables developers to find vulnerabilities, enhance their code comprehension, and quickly prototype custom analyses.
+
+- [Slither, the Solidity source analyzer](https://github.com/crytic/slither/blob/master/README.md)
+
+#### Manticore
+
+Manticore is a symbolic execution tool for analysis of smart contracts and binaries.
+
+- [Manticore Docs](https://manticore.readthedocs.io/)
+
+#### Mythx
+
+MythX is a comprehensive smart contract security analysis tools developed by Consensys. It allows users to detect security vulnerabilities in Ethereum smart contracts throughout the development life cycle as well as analyze Solidity dapps for security holes and known smart contract vulnerabilities.
+
+- [MythX Official Site](https://mythx.io/)
+- [MythX Documentation](https://docs.mythx.io/)
+
+#### Echidna
+
+Echidna is a Haskell program designed for fuzzing/property-based testing of Ethereum smarts contracts. It uses sophisticated grammar-based fuzzing campaigns based on a contract ABI to falsify user-defined predicates or Solidity assertions.
+
+- [Echidna: A Fast Smart Contract Fuzzer](https://github.com/crytic/echidna/blob/master/README.md)
+
+## Management Platforms
+
+Managing smart contracts in a production environment (mainnet) can prove difficult as users must keep track of different versions, blockchains, deployments, etc. Using a tool for this process eliminates a lot of the risk that comes with manual tracking.
+
+### OpenZeppelin
+
+OpenZeppelin Contracts helps you minimize risk by using battle-tested libraries of smart contracts for Ethereum and other blockchains. It includes the most used implementations of ERC standards.
+
+- [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts/)
+
+## Version Control Systems
+
+Version control/source control systems allow developers to track and control changes to code over time. These services often include the ability to make atomic revisions to code, branch/fork off of specific points, and to compare versions of code. They are useful in determining the who, what, when, and why code changes were made.
+
+- [Git](https://git-scm.com/)
+- [Mercurial](https://www.mercurial-scm.org/)
+- [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
+
+### Git
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+- [Version Control System Introduction](https://www.youtube.com/watch?v=zbKdDsNNOhg)
+- [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+- [Learn Git in 20 Minutes](https://youtu.be/Y9XZQO1n_7c?t=21)
+- [Learn Git on the command line](https://github.com/jlord/git-it-electron)
+
+## Repo Hosting Services
+
+When working on a team, you often need a remote place to put your code so others can access it, create their own branches, and create or review pull requests. These services often include issue tracking, code review, and continuous integration features. A few popular choices are GitHub, GitLab, BitBucket, and AWS CodeCommit.
+
+- [How to choose the best source code repository](https://bitbucket.org/product/code-repository)
+
+### GitHub
+
+GitHub is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
+
+- [GitHub Website](https://github.com/)
+
+### GitLab
+
+GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
+
+- [GitLab Website](https://gitlab.com/)
+
+### Bitbucket
+
+Bitbucket is a Git based hosting and source code repository service that is Atlassian's alternative to other products like GitHub, GitLab etc
+
+Bitbucket offers hosting options via Bitbucket Cloud (Atlassian's servers), Bitbucket Server (customer's on-premise) or Bitbucket Data Centre (number of servers in customers on-premise or cloud environment)
+
+- [Bitbucket Website](https://bitbucket.org/product)
+
+## dApps - Decentralized Applications
+
+A decentralised application (dApp) is an application that can operate autonomously, through the use of smart contracts that run on a blockchain. Like traditional applications, dApps provide some function or utility to its users.
+
+- [Introduction to dApps](https://ethereum.org/en/developers/docs/dapps/)
+- [What Is a Dapp? Decentralized Apps Explained](https://www.coindesk.com/learn/what-is-a-dapp-decentralized-apps-explained/)
+
+### Frontend Frameworks
+
+Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website. Frameworks for web application development are collections of various tools. Frameworks vary in their capabilities and functions, depending on the tasks set. They define the structure, establish the rules, and provide the development tools required.
+
+- [Web3 Frontend – Everything You Need to Learn About Building Dapp Frontends](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)
+- [What is the difference between a framework and a library?](https://www.youtube.com/watch?v=D_MO9vIRBcA)
+- [Which JS Framework is best?](https://www.youtube.com/watch?v=cuHDQhDhvPE)
+
+#### React
+
+#### Angular
+
+#### Vue.js
