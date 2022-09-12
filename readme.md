@@ -1,6 +1,6 @@
 # Blockchain roadmap
 
-![roadmap](./pdf/blockchain.pdf)
+![roadmap](./images/blockchain.png)
 
 ## Basic Blockchain Knowledge
 
@@ -574,6 +574,266 @@ Web frameworks are designed to write web applications. Frameworks are collection
 
 #### React
 
+React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native.
+
+- [React Website](https://reactjs.org/)
+
 #### Angular
 
+Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more.
+
+- [Official - Getting started with Angular](https://angular.io/start)
+
 #### Vue.js
+
+Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end development.
+
+- [Vue.js Website](https://vuejs.org/)
+
+### Testing
+
+A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.
+
+Like traditional software, testing dApps involves testing the entire stack that makes up the dApp (backend, frontend, db, etc.).
+
+- [What is Software Testing?](https://www.guru99.com/software-testing-introduction-importance.html)
+- [Testing Pyramid](https://www.browserstack.com/guide/testing-pyramid-for-test-automation)
+- [How to test dApps (decentralized applications)](https://rhian-is.medium.com/how-to-test-dapps-decentralized-applications-4662cf61db90)
+
+### Deployment
+
+Deploying a dApp involves deployment of all of its layers, generally through a management framework.
+
+- [Tutorial for building an Ethereum DApp with Integrated Web3 Monitoring](https://www.moesif.com/blog/blockchain/ethereum/Tutorial-for-building-Ethereum-Dapp-with-Integrated-Error-Monitoring/)
+
+### Maintenance
+
+dApps can be harder to maintain because the code and data published to the blockchain is harder to modify. It’s hard for developers to make updates to their dapps (or the underlying data stored by a dapp) once they are deployed, even if bugs or security risks are identified in an old version.
+
+### Architecture
+
+Unlike Web2 applications, in Web3 there’s no centralized database that stores the application state or user identity, and there’s no centralized web server where the backend logic resides.
+
+- [The Architecture of a Web 3.0 application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application)
+- [Decentralized Applications Architecture: Back End, Security and Design Patterns](https://www.freecodecamp.org/news/how-to-design-a-secure-backend-for-your-decentralized-application-9541b5d8bddb/)
+
+### Security
+
+dApps face unique security challenges as they run on immutable blockchains. dApps are harder to maintain, and developers cannot modify or update their codes once deployed. Therefore, special consideration must be taken before putting it on the blockchain.
+
+- [DAPP Security Standards](https://github.com/Dexaran/DAPP-security-standards/blob/master/README.md)
+- [dApp Security Considerations](https://livebook.manning.com/book/building-ethereum-dapps/chapter-14/)
+- [dApp Security:All You Need to Know](https://www.immunebytes.com/blog/dapp-security/#Benefits_of_DApps_Security)
+
+### Applicability
+
+dApps can be used for just about anything that requires two or more parties to agree on something. When the appropriate conditions are met, the smart contract will execute automatically. An important differentiation is that these transactions are no longer based on trust but they are rather based on cryptographically-backed smart contracts.
+
+- [What Is a dApp? A Guide to Decentralized Applications](https://www.sofi.com/learn/content/what-is-a-dapp/)
+- [Blockchain Use Cases and Applications by Industry](https://consensys.net/blockchain-use-cases/)
+- [The real-world use cases for blockchain technology](https://roboticsandautomationnews.com/2022/05/20/the-real-world-use-cases-for-blockchain-technology/)
+
+#### DeFi
+
+Decentralized finance offers financial instruments without relying on intermediaries such as brokerages, exchanges, or banks by using smart contracts on a blockchain.
+
+- [Decentralized Finance (DeFi) Definition](https://www.investopedia.com/decentralized-finance-defi-5113835)
+- [What is DeFi?](https://www.coinbase.com/learn/crypto-basics/what-is-defi)
+
+#### DAOs
+
+A decentralized autonomous organization (DAO) is an emerging form of legal structure. With no central governing body, every member within a DAO typically shares a common goal and attempt to act in the best interest of the entity. Popularized through cryptocurrency enthusiasts and blockchain technology, DAOs are used to make decisions in a bottoms-up management approach.
+
+- [What Is A DAO And How Do They Work?](https://consensys.net/blog/blockchain-explained/what-is-a-dao-and-how-do-they-work/)
+- [Decentralized Autonomous Organization (DAO)](https://www.investopedia.com/tech/what-dao/)
+
+#### NFTs
+
+A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. The ownership of an NFT is recorded in the blockchain, and can be transferred by the owner, allowing NFTs to be sold and traded.
+
+- [Non-Fungible Token (NFT)](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
+- [NFTs, explained](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq)
+- [NFT Explained In 5 Minutes | What Is NFT? - Non Fungible Token](https://youtu.be/NNQLJcJEzv0)
+
+#### Payments
+
+Blockchain technology has the ability to eliminate all the tolls exacted by centralized organization when transferring payments.
+
+- [How does blockchain impact global payments and remittances?](https://consensys.net/blockchain-use-cases/finance/#payments)
+- [Smart Contract Use Cases - Payments](https://blog.chain.link/smart-contract-use-cases/#external-payments)
+
+#### Insurance
+
+Blockchain technology has the ability to automate claims functions by verifying real-world data through the use of an oracle. It also automates payments between parties for claims and thus lower administrative costs for insurance companies.
+
+- [Smart Contract Use Cases - Insurance](https://blog.chain.link/smart-contract-use-cases/#insurance)
+- [Top 7 Use Cases of Blockchain in the Insurance Industry](https://imaginovation.net/blog/blockchain-insurance-industry-examples/)
+
+### Client libraries
+
+You don't need to write every smart contract in your project from scratch. There are many open source smart contract libraries available that provide reusable building blocks for your project that can save you from having to reinvent the wheel.
+
+#### Ethers.js
+
+The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem. It was originally designed for use with ethers.io and has since expanded into a more general-purpose library.
+
+- [Ethers.js Documentation](https://docs.ethers.io/)
+
+#### Web3.js
+
+web3.js is a collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket.
+
+- [web3.js Documentation](https://web3js.readthedocs.io/)
+
+#### Moralis SDK
+
+A library that gives you access to the powerful Moralis Server backend from your JavaScript app.
+
+- [Moralis SDK](https://github.com/MoralisWeb3/Moralis-JS-SDK/blob/main/README.md)
+
+### Client Nodes
+
+A blockchain is a distributed network of computers (known as nodes) running software that can verify blocks and transaction data. The software application, known as a client, must be run on your computer to turn it into a blockchain node.
+
+#### Geth
+
+Go Ethereum (Geth) is one of the three original implementations (along with C++ and Python) of the Ethereum protocol. It is written in Go, fully open source and licensed under the GNU LGPL v3.
+
+- [Geth Documentation](https://geth.ethereum.org/docs/)
+
+#### Besu
+
+Besu is an Apache 2.0 licensed, MainNet compatible, Ethereum client written in Java.
+
+- [Besu Ethereum Client](https://github.com/hyperledger/besu)
+
+#### Nethermind
+
+Nethermind is a high-performance, highly configurable full Ethereum protocol client built on .NET that runs on Linux, Windows, and macOS, and supports Clique, Aura, Ethash, and Proof-of-Stake consensus algorithms.
+
+- [Nethermind Documentation](https://docs.nethermind.io/nethermind/)
+
+#### Substrate
+
+Substrate is a Software Development Kit (SDK) specifically designed to provide you with all of the fundamental components s blockchain requires so you can focus on crafting the logic that makes your chain unique and innovative.
+
+- [Substrate Documentation](https://docs.substrate.io/quick-start/)
+
+### Node as a Service (NaaS)
+
+Running your own blockchain node can be challenging, especially when getting started or while scaling fast. There are a number of services that run optimized node infrastructures for you, so you can focus on developing your application or product instead.
+
+- [Blockchain Node Providers and How They Work](https://www.infoq.com/articles/blockchain-as-a-service-get-block/)
+- [Node as a Service - Ethereum](https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/)
+
+#### Alchemy
+
+Alchemy is a developer platform that empowers companies to build scalable and reliable decentralized applications without the hassle of managing blockchain infrastructure in-house.
+
+- [Alchemy official site](https://www.alchemy.com/)
+
+#### Infura
+
+Infura provides the tools and infrastructure that allow developers to easily take their blockchain application from testing to scaled deployment - with simple, reliable access to Ethereum and IPFS.
+
+- [Infura official site](https://infura.io/)
+
+#### Moralis
+
+Moralis provides a single workflow for building high performance dapps. Fully compatible with your favorite web3 tools and services.
+
+- [Moralis official site](https://moralis.io/)
+
+#### Quicknode
+
+QuickNode is a Web3 developer platform used to build and scale blockchain applications.
+
+- [Quicknode official site](https://www.quicknode.com/)
+
+### Supporting Languages
+
+While the bulk of the logic in blockchain applications is handled by smart contracts, all the surrounding services that support those smart contracts (frontend, monitoring, etc.) are often written in other languages.
+
+#### JavaScript
+
+JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It lets us add interactivity to pages e.g. you might have seen sliders, alerts, click interactions, and popups etc on different websites -- all of that is built using JavaScript. Apart from being used in the browser, it is also used in other non-browser environments as well such as Node.js for writing server-side code in JavaScript, Electron for writing desktop applications, React Native for mobile applications and so on.
+
+- [W3Schools – JavaScript Tutorial](https://www.w3schools.com/js/)
+- [The Modern JavaScript Tutorial](https://javascript.info/)
+- [Eloquent Javascript - Book](https://eloquentjavascript.net/)
+
+#### Python
+
+Python is a well known programming language which is both a strongly typed and a dynamically typed language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedureal or object-oriented programmatic ways.
+
+- [Python Website](https://www.python.org/)
+
+#### Go
+
+Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more.
+
+- [Go Reference Documentation](https://go.dev/doc/)
+
+## Building for Scale
+
+Due to the limited number of transactions-per-second (TPS) built-in to blockchains, a number of alternative mechanism and technologies have emerged to aid the scaling of blockchain dApps.
+
+### State and Payment Channels
+
+State channels refer to the process in which users transact with one another directly outside of the blockchain, or ‘off-chain,’ and greatly minimize their use of ‘on-chain’ operations.
+
+- [The Basics of State Channels](https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/)
+- [State Channels: An Introduction to Off-chain Transactions](https://www.talentica.com/blogs/state-channels-an-introduction-to-off-chain-transactions/)
+
+### Optimistic Rollups and Fraud Proofs
+
+‍Optimistic rollups are a layer 2 (L2) construction that improves throughput and latency on Ethereum’s base layer by moving computation and data storage off-chain. An optimistic rollup processes transactions outside of Ethereum Mainnet, reducing congestion on the base layer and improving scalability.
+
+Optimistic rollups allow anyone to publish blocks without providing proofs of validity. However, to ensure the chain remains safe, optimistic rollups specify a time window during which anyone can dispute a state transition.
+
+- [How Do Optimistic Rollups Work (The Complete Guide)](https://www.alchemy.com/overviews/optimistic-rollups)
+
+### Zero Knowledge Rollups and Zero Knowledge Proof
+
+Zero-knowledge rollups (ZK-rollups) are layer 2 scaling solutions that increase the throughput of a blockchain by moving computation and state-storage off-chain.
+
+- [Zero-Knowledge Rollups - Ethereum](https://ethereum.org/en/developers/docs/scaling/zk-rollups)
+- [What are Zero-Knowledge Rollups (ZK-rollups)?](https://www.alchemy.com//blog/zero-knowledge-rollups)
+
+### Validium
+
+Validium is a scaling solution that enforces integrity of transactions using validity proofs like ZK-rollups, but doesn’t store transaction data on the Ethereum Mainnet. While off-chain data availability introduces trade-offs, it can lead to massive improvements in scalability
+
+- [Validium - Ethereum](https://ethereum.org/en/developers/docs/scaling/validium/)
+
+### Sidechains
+
+A sidechain is a separate blockchain network that connects to another blockchain – called a parent blockchain or mainnet – via a two-way peg.
+
+- [Sidechains - Ethereum](https://ethereum.org/en/developers/docs/scaling/sidechains/)
+- [An Introduction to Sidechains](https://www.coindesk.com/learn/an-introduction-to-sidechains)
+
+### Plasma
+
+Plasma is a framework that allows the creation of child blockchains that use the main Ethereum chain as a layer of trust and arbitration. In Plasma, child chains can be designed to meet the requirements of specific use cases, specifically those that are not currently feasible on Ethereum.
+
+- [Plasma Chains - Ethereum](https://ethereum.org/en/developers/docs/scaling/plasma/)
+
+### Ethereum 2
+
+Ethereum 2.0 marks a long-anticipated upgrade to the Ethereum public mainnet. Designed to accelerate Ethereum’s usage and adoption by improving its performance, Ethereum 2.0 implements Proof of Stake.
+
+- [What Is Ethereum 2.0?](https://consensys.net/blog/blockchain-explained/what-is-ethereum-2/)
+- [What Is Ethereum 2.0? Understanding The Merge](https://www.forbes.com/advisor/investing/cryptocurrency/ethereum-2/)
+
+### On-Chain Scaling
+
+On-chain scaling refers to any direct modification made to a blockchain, like data sharding and execution sharding in the incoming version of Ethereum 2.0. Another type of on-chain scaling would be a sidechain with two-way bridge to Ethereum, like Polygon.
+
+- [Scaling - Ethereum](https://ethereum.org/en/developers/docs/scaling/)
+
+## Summary
+
+Keep Learning.
+
+Thanks [roadmap](https://roadmap.sh/).
